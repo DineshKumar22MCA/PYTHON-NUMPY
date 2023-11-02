@@ -1,0 +1,13 @@
+import numpy as np
+x=np.trunc([-2.845,3.8456])
+print(x)
+x=np.fix([-2.845,3.8456])
+print(x)
+x=np.around([-2.845,3.8456])
+print(x)
+x=np.floor([-2.845,3.856])
+print(x)
+x=np.ceil([-2.845,3.456])
+print(x)
+x=np.around([-2.845,3.456],2)
+print(x)

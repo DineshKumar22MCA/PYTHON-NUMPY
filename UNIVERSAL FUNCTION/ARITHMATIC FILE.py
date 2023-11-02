@@ -1,0 +1,19 @@
+import numpy as np
+x=[1,2,3]
+y=[4,5,6]
+a1=np.add(x,y)
+print(a1)
+a2=np.subtract(x,y)
+print(a2)
+a3=np.multiply(x,y)
+print(a3)
+a4=np.divide(x,y)
+print(a4)
+a5=np.power(x,y)
+print(a5)
+a6=np.remainder(x,y)
+print(a6)
+a7=np.mod(x,y)
+print(a7)
+a8=np.divmod(x,y)
+print(a8)

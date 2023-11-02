@@ -1,0 +1,10 @@
+import numpy as np
+a=np.array([10,20,30,40,50,60])
+y=np.searchsorted(a,50)
+print(y)
+y=np.searchsorted(a,50,side="right")
+print(y)
+y=np.searchsorted(a,50,side="left")
+print(y)
+y=np.searchsorted(a,[20,30,40])
+print(y)

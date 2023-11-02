@@ -1,0 +1,12 @@
+import numpy as np
+a=np.array([[1,2,3],[4,5,6]])
+b=np.array([[8,9,10],[11,12,13]])
+z=np.stack((a,b),axis=1)
+print(z)
+y=np.hstack((a,b))
+print(y)
+x=np.vstack((a,b))
+print(x)
+print("_________________")
+s=np.dstack((a,b))
+print(s)
